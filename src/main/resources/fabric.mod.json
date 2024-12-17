@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "trulyunbreakable",
+  "version": "${version}",
+  "name": "Truly Unbreakable",
+  "description": "This is a mod that will make sure your items never break!",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/TrulyUnbreakable/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "surrender.TrulyUnbreakable.main"
+    ]
+  },
+  "mixins": [
+    "trulyunbreakable.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

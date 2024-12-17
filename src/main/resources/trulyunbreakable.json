@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "surrender.TrulyUnbreakable.Mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TrulyUnbreakableMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
